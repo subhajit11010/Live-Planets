@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live Planets</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=MuseoModerno:ital,wght@0,100..900;1,100..900&display=swap"     rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    
+    <div class="nav nav-con">
+        <div class="navdiv"><span class="nav item1"><a href="#main">Discover</a></span></div>
+        <div class="navdiv"><span class="nav item2"><a href="./signup.html">Signup</a></span></div>
+        <div class="navdiv"><span class="nav item3"><a href="./login.html">Login</a></span></div>
+    </div>
+    <div class="description-container">
+        <div class="description">
+            <video autoplay loop id="myVid"><source src="./video/19045-298313358_small.mp4" type="video/mp4"></video>
+            <div class="des">
+                <span><h1>LIVE PLANETS</h1></span>
+                <span><p>Discover the beauties of planetary systems</p></span>
+            </div>
+            
+        </div>
+    </div>
+    <div class="main" id="main">
+        <h1>DISCOVER</h1>
+        <hr>
+        <div class="submain">
+            <div class="sidenavdiv">
+                
+                <li class="listitem"><a href="#EARTH">EARTH</a></li>
+                <li class="listitem"><a href="#MARS">MARS</a></li>
+                <li class="listitem"><a href="#VENUS">VENUS</a></li>
+                <li class="listitem"><a href="#MERCURY">MERCURY</a></li>
+                <li class="listitem"><a href="#JUPYTER">JUPYTER</a></li>
+                <li class="listitem"><a href="#URANUS">URANUS</a></li>
+                <li class="listitem"><a href="#NEPTUNE">NEPTUNE</a></li>
+                <li class="listitem" style="margin-bottom: 10px;"><a href="#SATURN">SATURN</a></li>
+            </div>
+            <div class="cards-con">
+                <div class="cards i1" id="EARTH"><img class="image" src="./images/earth.jpg" alt="earth"><h2>EARTH</h2></div>
+                <div class="cards i2" id="MARS"><img class="image" src="./images/mars.jpg" alt="mars" style="width: 260px;
+                height: 260px; object-fit: cover;"><h2>MARS</h2></div>
+                <div class="cards i3" id="VENUS"><img class="image" src="./images/venus.jpg" alt="venus"><h2>VENUS</h2></div>
+                <div class="cards i4" id="MERCURY"><img class="image" src="./images/mercury.jpg" alt="mercury"><h2>MERCURY</h2></div>
+                <div class="cards i5" id="JUPYTER"><img class="image" src="./images/jupyter.jpg" alt="jupyter" style="width: 260px; height: 250px; object-fit: cover;"><h2>JUPYTER</h2></div>
+                <div class="cards i6" id="URANUS"><img class="image" src="./images/uranus.jpg" alt="uranus" style="width: 265px; height: 252px; object-fit: cover;"><h2>URANUS</h2></div>
+                <div class="cards i7" id="NEPTUNE"><img class="image" src="./images/neptune.png" alt="neptune"><h2>NEPTUNE</h2></div>
+                <div class="cards i8" id="SATURN"><img class="image" src="./images/saturn.png" alt="saturn" style="margin-top: 0;"><h2>SATURN</h2></div>
+            </div>
+        </div>
+    </div>
+    
+   <script src="./script.js"></script>
+</body>
+</html>

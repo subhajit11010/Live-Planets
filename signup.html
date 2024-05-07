@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <link rel="stylesheet" href="./signup.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=MuseoModerno:ital,wght@0,100..900;1,100..900&display=swap"     rel="stylesheet">
+</head>
+<body>
+    <div class="container"> 
+        <div class="form-container">
+            <h1>Sign Up</h1>
+            <hr style="width: 100%;">
+            <div>
+                <form>
+                    <div class="formdiv">
+                        <label for="name">Name: </label>
+                        <input id="name" type="text">
+                        <br />
+                        <label for="email">Email: </label>
+                        <input id="email" type="email">
+                        <br />
+                        <label for="phone">Phone: </label>
+                        <input id="phone" type="number">
+                        <br />
+                        <div class="gender-div">
+                            <label>Gender: </label>
+                            <input id="male" type="radio" value="male" name="gender">
+                            <label for="male">Male</label>
+                            <br />
+                            <input id="female" type="radio" value="female" name="gender">
+                            <label for="female">Female</label>
+                        </div>
+                        <label for="age">Age: </label>
+                        <input id="age" name="age" type="date">
+                    </div>
+                </form>
+            </div>
+            <div id="submit">    
+                <button type="button">Submit</button>
+            </div>
+            <div>
+                <a href="./login.html">Sign in</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    color: rgb(152, 255, 255);
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    position: relative;
+    border: 1px solid black;
+    background-image: url("./images/cosmos.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "MuseoModerno", sans-serif;
+}
+.form-container{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    align-items: center;
+    top: 20%;
+    padding: 1rem;
+    border: 1px solid white;
+    border-radius: 5%;
+    
+}
+h1{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+/* .formdiv{
+    display: flex;
+    flex-direction: column;
+} */
+.gender-div{
+    display: flex;
+}
+#male, #female{
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+input, label{
+    margin: 1rem;
+    font-size: large;
+    font-weight: bold;
+}
+#submit{
+    /* color: white; */
+    width: 90%;
+    border-radius: 1%;
+   
+}
+button{
+    width: 100%;
+    background-color: rgb(240, 91, 5);
+    border: 1px solid rgb(240, 91, 5);
+    border: none;
+    font-size: large;
+    cursor: pointer;
+    padding: 0.3rem;
+}
+button:hover{
+    background-color: rgb(0, 255, 0);
+    border: 1px solid rgb(0, 255, 0);
+}
+a{
+    color: blue;
+    font-size: large;
+    font-weight: bold;
+}
